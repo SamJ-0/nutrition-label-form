@@ -4,8 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutrition label form</title>
+    <link rel="icon" href="#">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+        <header>
+            <h1 class="main-title">Nutrition label form</h1>
+        </header>
+        <form action="#" method="post">
+
+            <div class="product-details">
+            <label for="product-name">Name:</label>
+            <input type="text" id="product-name" name="product-name">
+
+            <label for="serving-size">Serving size:</label>
+            <input type="text" id="serving-size" name="serving-size">
+
+            </div>
+
+            <section>
+
+            <div class="nutrition-details">
+            <h4>Please enter nutritional values per 100g:</h4>
+            <label for="calories">Calories:</label>
+            <input type="number" id="calories" name="calories">
+
+            <label for="fat">Fat:</label>
+            <input type="number" id="fat" name="fat">
+
+            <label for="sat-fat">of which saturates:</label>
+            <input type="number" id="sat-fat" name="sat-fat">
+
+            <label for="carbs">Carbohydrate:</label>
+            <input type="number" id="carbs" name="carbs">
+
+            <label for="sugars">of which sugars:</label>
+            <input type="number" id="sugars" name="sugars">
+
+            <label for="fibre">Fibre:</label>
+            <input type="number" id="fibre" name="fibre">
+
+            <label for="protein">Protein:</label>
+            <input type="number" id="protein" name="protein">
+
+            <label for="salt">Salt:</label>
+            <input type="number" id="salt" name="salt">
+
+            </div>
+            </section>
+
+            <div class="submit-button">
+            <button type="submit">Submit</button>
+            </div>
+
+        </form>
+
+    <script src="script.js"></script>
 </body>
 </html>
